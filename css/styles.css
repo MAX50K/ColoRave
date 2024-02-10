@@ -7,3 +7,8 @@
 .header{
     background: rgb(1, 45, 99);
 }
+
+.hero{
+  height: 858px;
+  background-image: url("../img/Group 37 (1) 1.png");
+}
