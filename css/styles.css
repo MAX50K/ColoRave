@@ -4,11 +4,188 @@
   padding: 0 15px;
 }
 
-.header{
-    background: rgb(1, 45, 99);
+.header {
+  background: rgb(1, 45, 99);
 }
 
-.hero{
+.header_list {
+  display: flex;
+  margin-left: 152px;
+  gap: 29px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header_item {
+  color: rgb(199, 199, 199);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.header_link {
+  color: rgb(199, 199, 199);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header_link:hover {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header_lang_list {
+  display: flex;
+  margin-left: 73px;
+}
+.header_lang_list .container {
+  display: flex;
+  align-items: center;
+}
+
+.header_lang_item {
+  color: rgb(199, 199, 199);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header_lang_item-colored {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.main {
+}
+
+.hero {
   height: 858px;
   background-image: url("../img/Group 37 (1) 1.png");
+}
+
+.hero_title1 {
+  color: rgb(255, 255, 255);
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: left;
+}
+
+.hero_title1::before {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 120px;
+  background: url("../img/ed69f7fa91929ff49ecafac2bfd72360\ 2.png") no-repeat,
+    center;
+}
+
+.hero_title2 {
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 192px;
+  text-align: left;
+}
+
+.hero_title3 {
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.hero_text {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  width: 500px;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 41px;
+}
+
+.hero_button {
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background: rgb(142, 50, 198);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  padding: 20px 61px;
+}
+
+.nice {
+}
+
+.nice_title {
+}
+
+.comments {
+}
+
+.comments_reviews {
+}
+
+.comments_list {
+}
+
+.comments_item {
+}
+
+.comments_title {
+}
+
+.comments_text {
+}
+
+.comments_littletext {
+}
+
+.footer {
+}
+
+.orders {
+}
+
+.orders_button {
+}
+
+.real {
+}
+
+.real_title {
+}
+
+.real_link {
 }
