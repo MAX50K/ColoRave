@@ -94,14 +94,14 @@
   text-align: left;
 }
 
-.hero_title1::before {
+.hero_text1::before {
   content: "";
   display: block;
   width: 160px;
   height: 120px;
 }
 
-.hero_title1:nth-child(1):before {
+.hero_text1:nth-child(1):before {
   background-image: url("../img/ed69f7fa91929ff49ecafac2bfd72360\ 2.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -163,7 +163,7 @@
   margin: 105px 165px;
 }
 
-.nice_title {
+.nice_item {
   color: rgb(255, 255, 255);
   font-family: "Playfair Display";
   font-size: 36px;
@@ -172,14 +172,14 @@
   text-align: center;
 }
 
-.nice_title::after {
+.nice_item::after {
   content: "";
   display: block;
   width: 240px;
   height: 240px;
 }
 
-.nice_title:nth-child(1)::after {
+.nice_item:nth-child(1)::after {
   background-image: url("../img/Звёзды\ 1.png");
 }
 
@@ -226,29 +226,60 @@
   margin-bottom: 114px;
 }
 
-.comments_item {
-  width: 255px;
-  height: 292px;
-}
-
-.comments_item {
-  width: 255px;
-  height: 292px;
-}
-
-.comments_title {
+.comments_text {
   color: rgb(255, 255, 255);
   font-family: "Roboto";
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
+  padding-top: 49px;
+  padding-bottom: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
   text-align: left;
 }
 
-.comments_text {
+.comments_text2 {
+  color: rgb(216, 216, 216);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  padding-left: 13px;
+  padding-bottom: 47px;
 }
 
 .comments_littletext {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+.comments_littletext::first-line {
+  content: "";
+  display: block;
+  width: 31px;
+  height: 31px;
+
+}
+
+.comments_littletext:nth-child(1):first-line {
+  background-image: url("../img/Ellipse\ 17.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.comments_text3 {
+  color: rgb(216, 216, 216);
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
 }
 
 .footer {
@@ -263,7 +294,7 @@
 .real {
 }
 
-.real_title {
+.real_text {
 }
 
 .real_link {
