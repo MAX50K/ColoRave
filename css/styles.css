@@ -85,7 +85,7 @@
   background-image: url("../img/Group 37 (1) 1.png");
 }
 
-.hero_title1 {
+.hero_text1 {
   color: rgb(255, 255, 255);
   font-family: "PT Serif";
   font-size: 48px;
@@ -286,6 +286,15 @@
 }
 
 .orders {
+  display: flex;
+  background-image: url("../img/Group\ 2\ 1.png");
+  height: 509px;
+}
+
+.orders_text {
+}
+
+.orders_list {
 }
 
 .orders_button {
