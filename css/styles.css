@@ -43,21 +43,17 @@
 
 .header_link:hover {
   color: rgb(255, 255, 255);
-  font-family: "Roboto";
-  font-size: 24px;
-  font-weight: 400px;
-  line-height: 28px;
-  text-align: left;
+}
+.header_link:focus {
+  color: rgb(255, 255, 255);
 }
 
 .header_lang_list {
   display: flex;
   margin-left: 73px;
+  gap: 20px;
 }
-.header_lang_list .container {
-  display: flex;
-  align-items: center;
-}
+
 
 .header_lang_item {
   color: rgb(199, 199, 199);
@@ -83,6 +79,9 @@
 .hero {
   height: 858px;
   background-image: url("../img/Group 37 (1) 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero_text1 {
@@ -94,19 +93,6 @@
   text-align: left;
 }
 
-.hero_text1::before {
-  content: "";
-  display: block;
-  width: 160px;
-  height: 120px;
-}
-
-.hero_text1:nth-child(1):before {
-  background-image: url("../img/ed69f7fa91929ff49ecafac2bfd72360\ 2.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 160px;
-}
 
 .hero_title2 {
   color: rgb(255, 255, 255);
@@ -149,19 +135,19 @@
   text-align: left;
   padding: 20px 61px;
 }
-
+/* nice */
 .nice {
-  display: flex;
-  background-image: url("../img/Group\ 8\ 1.png");
+  background-image: url("../img/BackgroundImg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 105px;
+  padding-bottom: 105px;
 }
 
 .nice_list {
   display: flex;
   outline: #8e32c6 solid 5px;
-  margin-top: 105px;
-  margin-bottom: 105px;
-  margin-left: 165px;
-  margin-right: 165px;
 }
 
 .nice_item {
@@ -307,13 +293,7 @@
   margin-left: 49px;
 }
 
-.footer {
-  height: 292px;
-  background-color: rgb(2, 22, 53);
-  background-size: cover;
-  background-position: center;
-  padding: 45px 0;
-}
+
 
 .orders {
   display: flex;
@@ -354,6 +334,14 @@
   line-height: 33px;
   letter-spacing: 0%;
   padding-left: 25px;
+}
+
+.footer {
+  height: 292px;
+  background-color: rgb(2, 22, 53);
+  background-size: cover;
+  background-position: center;
+  padding: 45px 0;
 }
 
 .real {
