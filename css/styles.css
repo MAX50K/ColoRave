@@ -151,10 +151,19 @@
 }
 
 .nice_item {
-  border-right: 1px solid #fff;
-  padding-right: 50.5px;
-  padding-left: 50.5px;
   text-align: center;
+}
+
+.nice_item:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.nice_item:nth-last-child(odd) {
+  padding: 0 90.5px;
+}
+
+.nice_item:nth-last-child(2) {
+  padding: 0 95.5px;
 }
 
 .nice_text {
@@ -174,7 +183,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  background: url("../img/Group\ 6\ 1.png") no-repeat center;
+  background: url("../img/Group\ 6\ 1.png") no-repeat center, url("../img/цветы\ 2\ 1.png") no-repeat left,bottom;
 }
 
 .comments_reviews {
