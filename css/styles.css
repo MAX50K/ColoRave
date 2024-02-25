@@ -302,11 +302,12 @@
   margin-left: 49px;
 }
 
-
-
 .orders {
   display: flex;
   background-image: url("../img/Group\ 2\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 509px;
 }
 
