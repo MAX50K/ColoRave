@@ -310,8 +310,6 @@
   background-size: cover;
 }
 
-
-
 .orders_text {
   color: rgb(255, 255, 255);
   font-family: "Playfair Display";
@@ -330,7 +328,6 @@
 }
 
 .orders_button {
-  display: ;
   color: rgb(255, 255, 255);
   border-radius: 10px;
   background: rgb(142, 50, 198);
@@ -338,37 +335,78 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
   padding: 20px 61px;
+  margin-top: 19px;
 }
 
 .orders_label {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.orders_label-email .orders_text3{
+  border: none;
+  width: 690px;
+  margin-left: 25px;
+  margin-right: 12px;
+  color: black;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.orders_label-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 690px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.orders_text3-email {
+  width: 690px;
+  padding: 12px 50px;
+  border-radius: 50px;
+  font-family: "Roboto";
+  background: rgb(255, 255, 255);
+  color: rgb(0,0,0);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.orders_text3 {
+  width: 580px;
+  padding: 12px 50px;
+  border-radius: 50px;
+  font-family: "Roboto";
+  background: rgb(255, 255, 255);
+  color: rgb(0,0,0);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
 }
 
 .orders_text2 {
   color: rgb(255, 255, 255);
   font-family: "Roboto";
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   width: 500px;
   line-height: 21px;
-  text-align: left;
   margin-bottom: 41px;
 }
 
-.orders_text3 {
-  padding: 12px 50px;
-  border-radius: 50px;
-  font-family: "Roboto";
-  background: rgb(255, 255, 255);
-  color: rgb(149, 149, 149);
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 33px;
-}
+
+
 
 .footer {
   height: 292px;
