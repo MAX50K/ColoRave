@@ -78,7 +78,7 @@
 
 .hero {
   height: 858px;
-  background-image: url("../img/Group 37 (1) 1.png");
+  background-image: url("../img/background1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -179,11 +179,11 @@
 }
 
 .comments {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  background: url("../img/Group\ 6\ 1.png") no-repeat center, url("../img/цветы\ 2\ 1.png") no-repeat left,bottom;
+  background-image:  url("../img/flowers.png"), url("../img/background3.png");
+  background-repeat: no-repeat;
+  background-position: left, center;
+  background-size: 340px, cover;
+  height: 520px;
 }
 
 .comments_reviews {
@@ -210,8 +210,8 @@
 .comments_item:nth-child(1) {
   border-radius: 15px;
 
-  box-shadow: 0px 30px 0px -13px rgb(83, 57, 120),
-    0px 14px 0px -5px rgb(123, 84, 179);
+  box-shadow:
+  0px 14px 0px -5px rgb(123, 84, 179), 0px 30px 0px -13px rgb(83, 57, 120);
   background: linear-gradient(
     135deg,
     rgb(0, 229, 230) 7.292%,
@@ -227,8 +227,8 @@
 
   border-radius: 15px;
 
-  box-shadow: 0px 30px 0px -13px rgb(97, 51, 124),
-    0px 14px 0px -5px rgb(145, 89, 177);
+  box-shadow:
+  0px 14px 0px -5px rgb(145, 89, 177), 0px 30px 0px -13px rgb(97, 51, 124);
   background: linear-gradient(
     135deg,
     rgb(255, 104, 180) 0%,
@@ -242,8 +242,7 @@
 .comments_item:nth-child(3) {
   border-radius: 15px;
 
-  box-shadow: 0px 30px 0px -13px rgb(115, 47, 38),
-    0px 14px 0px -5px rgb(185, 90, 76);
+  box-shadow:   0px 14px 0px -5px rgb(185, 90, 76), 0px 30px 0px -13px rgb(115, 47, 38);
   background: linear-gradient(
     135deg,
     rgb(255, 225, 40) 0%,
@@ -304,7 +303,7 @@
 
 .orders {
   padding: 20px 0px 37px;
-  background-image: url("../img/Group\ 2\ 1.png");
+  background-image: url("../img/backround2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -335,8 +334,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
+
   padding: 20px 61px;
   margin-top: 19px;
 }
