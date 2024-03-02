@@ -1,3 +1,8 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -26,7 +31,6 @@
 
 .header_item {
   color: rgb(199, 199, 199);
-  font-family: "Roboto";
   font-size: 24px;
   font-weight: 300px;
   line-height: 28px;
@@ -34,22 +38,20 @@
 }
 .header_link {
   color: rgb(199, 199, 199);
-  font-family: "Roboto";
   font-size: 24px;
   font-weight: 300px;
   line-height: 28px;
   text-align: left;
 }
 
-.header_link:hover {
-  color: rgb(255, 255, 255);
-}
+.header_link:hover, 
 .header_link:focus {
   color: rgb(255, 255, 255);
 }
 
 .header_lang_list {
   display: flex;
+  align-items: center;
   margin-left: 73px;
   gap: 20px;
 }
@@ -57,31 +59,26 @@
 
 .header_lang_item {
   color: rgb(199, 199, 199);
-  font-family: "Roboto";
   font-size: 24px;
   font-weight: 300px;
   line-height: 28px;
-  text-align: left;
 }
 
 .header_lang_item-colored {
   color: rgb(255, 255, 255);
-  font-family: "Roboto";
   font-size: 24px;
   font-weight: 400px;
   line-height: 28px;
-  text-align: left;
 }
 
-.main {
-}
-
+/* hero */
 .hero {
-  height: 858px;
   background-image: url("../img/background1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 91px;
+  padding-bottom: 183px;
 }
 
 .hero_text1 {
@@ -115,7 +112,6 @@
 
 .hero_text {
   color: rgb(255, 255, 255);
-  font-family: "Roboto";
   font-size: 18px;
   font-weight: 400;
   width: 500px;
@@ -137,7 +133,7 @@
 }
 /* nice */
 .nice {
-  background-image: url("../img/BackgroundImg1.jpg");
+  background-image: url("../img/bcg-nice.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,7 +143,10 @@
 
 .nice_list {
   display: flex;
-  outline: #8e32c6 solid 5px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #8e32c6;
+  padding: 25px 0px;
 }
 
 .nice_item {
@@ -158,12 +157,12 @@
   border-right: 1px solid #fff;
 }
 
-.nice_item:nth-last-child(odd) {
-  padding: 0 90.5px;
+.nice_item:nth-child(odd) {
+  padding: 0 50px;
 }
 
-.nice_item:nth-last-child(2) {
-  padding: 0 95.5px;
+.nice_item:nth-child(2) {
+  padding: 0 95px;
 }
 
 .nice_text {
@@ -175,40 +174,39 @@
   text-align: center;
 }
 
-.nice_img {
-}
-
+/* comments */
 .comments {
   background-image:  url("../img/flowers.png"), url("../img/background3.png");
   background-repeat: no-repeat;
-  background-position: left, center;
+  background-position: left bottom, center;
   background-size: 340px, cover;
-  height: 520px;
+  padding-top: 24px;
+  padding-bottom: 114px;
 }
 
-.comments_reviews {
+.comments_reviews_title {
   color: rgb(255, 255, 255);
   font-family: "Playfair Display";
   font-size: 48px;
   font-weight: 400;
   line-height: 64px;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .comments_list {
   display: flex;
+  justify-content: center;
   gap: 93px;
-  justify-content: space-around;
-  margin-top: 24px;
+  align-items: center;
 }
 
 .comments_item {
-  width: 255px;
-  height: 292px;
+  padding: 49px 13px 29px;
+  border-radius: 15px;
 }
 
 .comments_item:nth-child(1) {
-  border-radius: 15px;
 
   box-shadow:
   0px 14px 0px -5px rgb(123, 84, 179), 0px 30px 0px -13px rgb(83, 57, 120);
@@ -219,13 +217,9 @@
     rgb(154, 118, 249) 62.5%,
     rgb(204, 94, 194) 100%
   );
-  margin-bottom: 114px;
 }
 
 .comments_item:nth-child(2) {
-  border-radius: 15px;
-
-  border-radius: 15px;
 
   box-shadow:
   0px 14px 0px -5px rgb(145, 89, 177), 0px 30px 0px -13px rgb(97, 51, 124);
@@ -236,11 +230,9 @@
     rgb(206, 58, 255) 62.841%,
     rgb(137, 97, 255) 100%
   );
-  margin-bottom: 114px;
 }
 
 .comments_item:nth-child(3) {
-  border-radius: 15px;
 
   box-shadow:   0px 14px 0px -5px rgb(185, 90, 76), 0px 30px 0px -13px rgb(115, 47, 38);
   background: linear-gradient(
@@ -254,51 +246,46 @@
 
 .comments_text {
   color: rgb(255, 255, 255);
-  font-family: "Roboto";
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  padding-top: 49px;
-  padding-bottom: 8px;
-  padding-left: 13px;
-  padding-right: 13px;
+  width: 228px;
+  margin-bottom: 8px;
   text-align: left;
 }
 
 .comments_text2 {
   color: rgb(216, 216, 216);
-  font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  padding-left: 13px;
-  padding-bottom: 47px;
+  margin-bottom: 47px;
+}
+
+.comments_user_thumb {
+  display: flex;
+  align-items: center;
 }
 
 .comments_img {
-  margin-left: 13px;
+  margin-right: 5px;
 }
 
 .comments_littletext {
   color: rgb(255, 255, 255);
-  font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  margin-left: 49px;
-  margin-top: -31px;
 }
 
 .comments_text3 {
   color: rgb(216, 216, 216);
-  font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  margin-left: 49px;
 }
 
 .orders {
@@ -324,9 +311,11 @@
   flex-direction: column;
   align-items: center;
   gap: 19px;
+  margin-bottom: 19px;
 }
 
 .orders_button {
+  display: block;
   color: rgb(255, 255, 255);
   border-radius: 10px;
   background: rgb(142, 50, 198);
@@ -334,9 +323,8 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-
   padding: 20px 61px;
-  margin-top: 19px;
+  margin: 0 auto;
 }
 
 .orders_label {
@@ -403,8 +391,8 @@
   margin-bottom: 41px;
 }
 
+/* footer */
 .footer {
-  height: 292px;
   background-color: rgb(2, 22, 53);
   background-size: cover;
   background-position: center;
@@ -415,7 +403,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(155, 155, 155);
-  padding-bottom: 20px 165px;
+  padding-bottom: 20px;
 }
 
 .quest_list {
@@ -432,7 +420,7 @@
 }
 
 .links_list {
-  gap: 10px;
+  text-align: right;
 }
 
 .real_link {
@@ -443,6 +431,12 @@
   line-height: 28px;
   text-align: right;
   text-decoration-line: underline;
+}
+
+.footer_copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
 }
 
 .information_list {
@@ -458,6 +452,8 @@
 
 .logo_list {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .real_logo {
